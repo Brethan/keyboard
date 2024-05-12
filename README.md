@@ -41,8 +41,8 @@ The final goals for this project are the following:
 
 
 ## Circuit Schematic
-<img src="./schematics/right-schematic.png" width=350 display=inline>
-<img src="./schematics/left-schematic.png" width=350  display=inline>
+<img src="./schematics/right-schematic.png" width=450 display=inline>
+<img src="./schematics/left-schematic.png" width=450  display=inline>
 
 The circuit schematic is identical between revision 1 and 2, so it will be omitted later.
 It's a fairly simple row-column matrix, there are 5 columns and 4 rows per board, totalling 40 keys across both halves.
@@ -75,8 +75,8 @@ I mention this below, but you can almost see the spacing of the keys and that's 
 The box around the switch footprint ended up being too large for my liking, the keys had far too much space in between them and it was not totally comfortable to type on. Routing the diodes was a bit of a pain as well, I wanted to reduce the size of this thing as much as I could without opting for surface mounted diodes.
 
 ### PCB Schematic
-<img src="./schematics/rev1/left-pcb.png" width=350 display=inline>
-<img src="./schematics/rev1/right-pcb.png" width=350 display=inline>
+<img src="./schematics/rev1/left-pcb.png" width=450 display=inline>
+<img src="./schematics/rev1/right-pcb.png" width=450 display=inline>
 
 The routing in this board is very amateurish. This was my first time designing a PCB on my own.
 I'm also not particularly happy with how the edge cuts look. I found the design tools in KiCad to be super awkward to use
@@ -89,8 +89,8 @@ I placed the footprint for the audio jack upside down for this revision. Unsurpr
 ### Models
 
 <img src="./models/rev1/full.png" width=600>  
-<img src="./models/rev1/case.png" width=350 display=inline>
-<img src="./models/rev1/plate.png" width=350 display=inline>
+<img src="./models/rev1/case.png" width=450 display=inline>
+<img src="./models/rev1/plate.png" width=450 display=inline>
 
 This case was not at all fun to design. Especially with that upside down audio jack. The PCBs weren't identical so I actually had to do some really weird things to a mirror of the left hand case to make it fit the right hand PCB. It took far longer than it should have, but fortunately I was able to make the PCBs identical for Rev2.
 
@@ -102,8 +102,8 @@ I opted for Kailh Choc switches for this revision. I wanted to revisit my origin
 
 ### In Use (Daily Driver)
 
-<img src="./images/rev2/assembled.jpg" width=350 display=inline>
-<img src="./images/rev2/closeup.jpg" width=350 display=inline>
+<img src="./images/rev2/assembled.jpg" width=450 display=inline>
+<img src="./images/rev2/closeup.jpg" width=450 display=inline>
 
 Again, don't mind the sad Linus mousepad.
 
@@ -119,8 +119,8 @@ diodes instead of the through-hole diodes. This made routing the keyboard a lot 
 was that soldering wasn't nearly as easy. 
 
 ### PCB Schematic
-<img src="./schematics/rev2/left-pcb.png" width=350 display=inline>
-<img src="./schematics/rev2/right-pcb.png" width=350 display=inline>
+<img src="./schematics/rev2/left-pcb.png" width=450 display=inline>
+<img src="./schematics/rev2/right-pcb.png" width=450 display=inline>
 
 I will admit, I think the routing I did for this board is arguably worse than the first. I was just desperate to get this thing sent to an unsustainably cheap chinese PCB manufacturer and so I just routed as fast as I could without violating my DRC. 
 
@@ -131,8 +131,8 @@ Speaking of learning, the audio jack footprint was placed correctly this time an
 ### Models
 
 <img src="./models/rev2/full.png" width=600>  
-<img src="./models/rev2/case.png" width=350 display=inline>
-<img src="./models/rev2/plate.png" width=350 display=inline>
+<img src="./models/rev2/case.png" width=450 display=inline>
+<img src="./models/rev2/plate.png" width=450 display=inline>
 
 I wanted the case to be thin, but I also didn't want it to be flimsy... So I made it too tall because I didn't realize that fastening the PCB to the case would stiffen it considerably. Despite that, the overall height of the case was less than 2 cm, and fit snugly in my bag next to my laptop so I shall call that a win.
 
